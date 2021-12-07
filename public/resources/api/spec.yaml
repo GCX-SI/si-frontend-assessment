@@ -1,0 +1,372 @@
+openapi: 3.0.0
+tags: []
+info:
+  title: IOT.Hub
+  version: '1.1.0'
+  description: ''
+  contact: {}
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /devices/:
+    get:
+      summary: Devices
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    factory_name:
+                      type: string
+                    name:
+                      type: string
+                    active:
+                      type: boolean
+                    version:
+                      type: string
+                    serial_number:
+                      type: string
+                    type:
+                      type: string
+        '401':
+          description: Unauthorized
+      operationId: get-devices
+      description: device details including sensor data
+    parameters: []
+    post:
+      summary: Create Device
+      operationId: post-devices
+      responses:
+        '200':
+          description: OK
+      description: create a device
+  '/devices/{serialNumber}':
+    parameters:
+      - schema:
+          type: string
+        name: serialNumber
+        in: path
+        required: true
+    get:
+      summary: Device
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  factory_name:
+                    type: string
+                  name:
+                    type: string
+                  user:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      email:
+                        type: string
+                  sensors:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        title:
+                          type: string
+                        value:
+                          type: string
+                        type:
+                          type: string
+                          enum:
+                            - humidity
+                            - temperature
+                            - voltage
+                        suffix:
+                          type: string
+                          maxLength: 3
+                          minLength: 1
+                  battery:
+                    type: object
+                    properties:
+                      states:
+                        type: array
+                        minItems: 10
+                        maxItems: 20
+                        items:
+                          type: object
+                          properties:
+                            charge_level:
+                              type: integer
+                              minimum: 0
+                              maximum: 100
+                            created_at:
+                              type: string
+                              format: date-time
+                      time_remaining:
+                        type: integer
+                        minimum: 0
+              examples:
+                iot pro 9000 1:
+                  value:
+                    factory_name: iot pro 9000
+                    name: Living Room Pro
+                    user:
+                      name: John Doe
+                      email: john@doe.com
+                    sensors:
+                      - title: Temperature
+                        value: '32'
+                        type: temperature
+                        suffix: °C
+                      - title: Humidity
+                        value: '51'
+                        type: humidity
+                        suffix: '%'
+                    battery:
+                      states:
+                        - charge_level: 44
+                          created_at: '1977-08-17T08:46:23.074Z'
+                        - charge_level: 65
+                          created_at: '2016-10-05T11:21:56.202Z'
+                        - charge_level: 34
+                          created_at: '1980-06-01T17:07:05.254Z'
+                        - charge_level: 44
+                          created_at: '1977-08-17T08:46:23.074Z'
+                        - charge_level: 65
+                          created_at: '2016-10-05T11:21:56.202Z'
+                        - charge_level: 34
+                          created_at: '1980-06-01T17:07:05.254Z'
+                        - charge_level: 44
+                          created_at: '1977-08-17T08:46:23.074Z'
+                        - charge_level: 65
+                          created_at: '2016-10-05T11:21:56.202Z'
+                        - charge_level: 34
+                          created_at: '1980-06-01T17:07:05.254Z'
+                        - charge_level: 34
+                          created_at: '1980-06-01T17:07:05.254Z'
+                      time_remaining: 57523758
+      operationId: get-devices-serialNumber
+  /claims/:
+    post:
+      summary: Claims
+      operationId: post-claims
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Device'
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+      description: claim a device
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                serialNumber:
+                  type: string
+                code:
+                  type: string
+        description: ''
+  /sessions/:
+    post:
+      summary: Create Session
+      operationId: post-sessions
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not Found
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+            examples:
+              login:
+                value:
+                  email: test@test.de
+                  password: '123'
+        description: ''
+      description: ''
+    parameters: []
+  '/claims/{claimId}':
+    parameters:
+      - schema:
+          type: string
+        name: claimId
+        in: path
+        required: true
+    delete:
+      summary: Delete Claim
+      operationId: delete-claims-claimId
+      responses:
+        '204':
+          description: No Content
+        '400':
+          description: Bad Request
+        '401':
+          description: Unauthorized
+      description: unclaim a device
+  /widgets/:
+    get:
+      summary: Widgets
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  active_devices:
+                    type: object
+                    properties:
+                      title:
+                        type: string
+                      value:
+                        type: number
+                      trendUp:
+                        type: boolean
+                  health:
+                    type: object
+                    properties:
+                      title:
+                        type: string
+                      value:
+                        type: string
+                        enum:
+                          - okay
+                          - warning
+                          - error
+                  energy:
+                    type: object
+                    properties:
+                      title:
+                        type: string
+                      value:
+                        type: string
+              examples: {}
+      operationId: get-widgets
+      description: retreive dashboard widgets
+components:
+  schemas:
+    Device:
+      title: Device
+      type: object
+      x-examples: {}
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+        active:
+          type: boolean
+        firmware_version:
+          type: string
+        serial_number:
+          type: string
+      required:
+        - id
+        - name
+        - type
+        - active
+        - firmware_version
+        - serial_number
+    SensorType:
+      title: SensorType
+      type: object
+      x-examples: {}
+      properties:
+        id:
+          type: string
+        suffix:
+          type: string
+        value-type:
+          type: string
+          enum:
+            - decimal
+            - percent
+            - integer
+        positive:
+          type: boolean
+      required:
+        - id
+        - suffix
+        - value-type
+        - positive
+    Claim:
+      title: Claim
+      type: object
+      description: Connect devices to users. User can give their devices names via claims.
+      x-tags:
+        - iot
+      properties:
+        id:
+          type: string
+        device_id:
+          $ref: '#/components/schemas/Device'
+        user_id:
+          $ref: ../models/User.v1.yaml
+        name:
+          type: string
+      required:
+        - id
+        - device_id
+        - user_id
+        - name
+    Sensor:
+      title: Sensor
+      type: object
+      description: A join table between devices and sensors types
+      properties:
+        id:
+          type: string
+        sensor_type_id:
+          $ref: '#/components/schemas/SensorType'
+        value:
+          type: string
+      required:
+        - id
+        - sensor_type_id
+        - value
+    BatteryState:
+      title: BatteryState
+      type: object
+      properties:
+        id:
+          type: string
+        device_id:
+          $ref: '#/components/schemas/Device'
+        created_at:
+          type: string
+          format: date-time
+        level:
+          type: number
+      required:
+        - id
+        - device_id
+        - created_at
+        - level
