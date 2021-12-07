@@ -10,7 +10,9 @@
       (provides measurements, screens and assets but needs registration)
     </li>
     <li>
-      <a target="_blank" href="/resources/design.zip">Zip</a>
+      <a target="_blank" href="https://drive.google.com/drive/folders/1c4c43LayBiVZzcyFxrK3ifK6w9fAE1NH?usp=sharing"
+        >Google Drive</a
+      >
       (screens, assets, font)
     </li>
   </ul>
