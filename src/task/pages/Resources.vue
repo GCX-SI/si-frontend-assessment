@@ -18,17 +18,11 @@
   <h3>API</h3>
   <ul>
     <li>
-      <a
-        target="_blank"
-        href="https://share.goabstract.com/1da5ea0a-f2d1-46a7-8f7a-fe4755f5b305?sha=50ad445cd00ac75cae60c8ad8e06bef523ef4a5e"
-        >SwaggerHub</a
-      >
+      <a target="_blank" href="https://app.swaggerhub.com/apis/Grandcentrix-GmbH/iot-hub/1.1.0">SwaggerHub</a>
       (openAPI viewer)
     </li>
     <li>
-      <a target="_blank" href="https://drive.google.com/drive/folders/1c4c43LayBiVZzcyFxrK3ifK6w9fAE1NH?usp=sharing"
-        >Stoplight Studio</a
-      >
+      <a target="_blank" href="https://stoplight.io/studio/">Stoplight Studio</a>
       (openAPI editor, provides mock server)
     </li>
     <li>
