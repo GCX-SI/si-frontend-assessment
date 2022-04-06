@@ -1,0 +1,215 @@
+{
+    "battery": {
+        "time_remaining": 84936762,
+        "states": [
+            {
+                "created_at": "1945-01-23T14:23:21.177Z",
+                "charge_level": 8
+            },
+            {
+                "created_at": "1947-04-14T03:19:54.398Z",
+                "charge_level": 69
+            },
+            {
+                "charge_level": 21,
+                "created_at": "1962-04-30T02:44:03.252Z"
+            },
+            {
+                "created_at": "2019-09-06T16:08:03.489Z",
+                "charge_level": 86
+            },
+            {
+                "charge_level": 64,
+                "created_at": "1963-09-23T13:49:59.439Z"
+            },
+            {
+                "created_at": "1943-01-06T06:46:43.381Z",
+                "charge_level": 86
+            },
+            {
+                "charge_level": 30,
+                "created_at": "2019-02-24T03:28:35.651Z"
+            },
+            {
+                "charge_level": 79,
+                "created_at": "2003-08-29T12:02:42.356Z"
+            },
+            {
+                "created_at": "1980-02-16T07:00:33.631Z",
+                "charge_level": 64
+            },
+            {
+                "charge_level": 49,
+                "created_at": "1962-09-07T11:05:54.587Z"
+            },
+            {
+                "charge_level": 73,
+                "created_at": "2007-10-16T12:20:47.564Z"
+            },
+            {
+                "created_at": "1987-07-02T22:22:06.136Z",
+                "charge_level": 79
+            },
+            {
+                "charge_level": 32,
+                "created_at": "2020-01-27T07:40:57.49Z"
+            },
+            {
+                "created_at": "1979-08-22T10:32:45.214Z",
+                "charge_level": 66
+            },
+            {
+                "created_at": "1971-09-23T02:52:45.276Z",
+                "charge_level": 51
+            },
+            {
+                "charge_level": 28,
+                "created_at": "2021-06-10T23:46:54.115Z"
+            },
+            {
+                "created_at": "1953-04-21T20:38:02.942Z",
+                "charge_level": 27
+            },
+            {
+                "created_at": "1984-05-11T05:29:24.851Z",
+                "charge_level": 70
+            },
+            {
+                "created_at": "1954-05-24T10:35:26.879Z",
+                "charge_level": 55
+            },
+            {
+                "created_at": "1978-05-11T01:58:33.137Z",
+                "charge_level": 5
+            }
+        ]
+    },
+    "name": "minim quis proident elit dolor",
+    "factory_name": "ullamco minim",
+    "user": {
+        "name": "cupidatat deserunt",
+        "email": "dolor aliqua ut exercitation"
+    },
+    "sensors": [
+        {
+            "value": "velit cillum",
+            "suffix": "eli",
+            "type": "voltage",
+            "title": "dolor irure elit"
+        },
+        {
+            "title": "ut",
+            "value": "proident reprehender",
+            "type": "temperature",
+            "suffix": "oc"
+        },
+        {
+            "value": "cupidatat veniam proident Lorem",
+            "suffix": "inc",
+            "type": "voltage",
+            "title": "in eu sed"
+        },
+        {
+            "title": "dolore irure magna ut ex",
+            "suffix": "dol",
+            "type": "temperature",
+            "value": "Lorem Excepteur est"
+        },
+        {
+            "type": "temperature",
+            "suffix": "n",
+            "title": "Duis nisi veniam ipsum est",
+            "value": "dolore elit pariatur voluptate ipsum"
+        },
+        {
+            "title": "amet laboris",
+            "type": "voltage",
+            "suffix": "ull",
+            "value": "et"
+        },
+        {
+            "suffix": "rep",
+            "title": "nostrud adipisicing deserunt",
+            "type": "temperature",
+            "value": "proident in occaecat dolore"
+        },
+        {
+            "type": "temperature",
+            "value": "quis mollit esse sunt",
+            "suffix": "m",
+            "title": "ex nostrud qui"
+        },
+        {
+            "title": "do voluptate est",
+            "suffix": "pa",
+            "type": "temperature",
+            "value": "aute dolore sit incididunt"
+        },
+        {
+            "value": "deserunt laborum qui",
+            "title": "nisi sed esse",
+            "suffix": "in",
+            "type": "temperature"
+        },
+        {
+            "suffix": "cul",
+            "type": "voltage",
+            "value": "minim laboris culpa enim pariatur",
+            "title": "ut"
+        },
+        {
+            "type": "humidity",
+            "value": "sit velit minim amet",
+            "title": "sunt dolor sint laboris",
+            "suffix": "sin"
+        },
+        {
+            "suffix": "ve",
+            "type": "temperature",
+            "value": "laborum do in aute",
+            "title": "sed eiusmod nost"
+        },
+        {
+            "suffix": "do ",
+            "value": "consequat deserunt Ut sit enim",
+            "title": "ven",
+            "type": "humidity"
+        },
+        {
+            "suffix": "in",
+            "title": "veniam",
+            "value": "dolor cillu",
+            "type": "temperature"
+        },
+        {
+            "suffix": "sin",
+            "title": "mollit adipisicing et nostrud in",
+            "value": "nostrud eu",
+            "type": "humidity"
+        },
+        {
+            "title": "enim sed do",
+            "value": "elit laboris",
+            "suffix": "u",
+            "type": "humidity"
+        },
+        {
+            "value": "nostrud qui Duis",
+            "title": "volupta",
+            "suffix": "in",
+            "type": "temperature"
+        },
+        {
+            "suffix": "se",
+            "title": "dolore proident eu occaecat",
+            "type": "temperature",
+            "value": "do amet cillum aliquip mollit"
+        },
+        {
+            "type": "humidity",
+            "suffix": "eiu",
+            "value": "id am",
+            "title": "consectetur"
+        }
+    ]
+}

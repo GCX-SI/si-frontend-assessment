@@ -1,0 +1,162 @@
+[
+    {
+        "active": false,
+        "type": "nisi dolore Lorem",
+        "serial_number": "aliqua in ullamco ad",
+        "factory_name": "exercitation eiusmod irure",
+        "version": "dolore ut cillum culpa esse",
+        "name": "occaecat ex velit"
+    },
+    {
+        "factory_name": "dolore non",
+        "version": "non consectetur mollit dolore",
+        "name": "enim",
+        "type": "in minim deserunt magna",
+        "active": false,
+        "serial_number": "aliqua laboris commodo dolore cillum"
+    },
+    {
+        "name": "incididunt id reprehenderit eu sit",
+        "active": false,
+        "factory_name": "ut ",
+        "serial_number": "dolor",
+        "version": "sunt incididunt",
+        "type": "enim"
+    },
+    {
+        "factory_name": "non ut ea consequat ullamco",
+        "type": "ut magna ut Ut culpa",
+        "active": true,
+        "version": "labore culpa ipsum enim anim",
+        "serial_number": "eiusmod proident amet",
+        "name": "ad"
+    },
+    {
+        "factory_name": "commodo",
+        "type": "ipsum Ut et ut",
+        "serial_number": "consectetur in",
+        "active": true,
+        "name": "magna ea reprehenderit tempor",
+        "version": "qui sed tempor nulla"
+    },
+    {
+        "type": "et magna veniam commodo",
+        "serial_number": "Excepteur",
+        "active": false,
+        "factory_name": "qui",
+        "version": "elit esse voluptate dolore nulla",
+        "name": "Duis"
+    },
+    {
+        "active": false,
+        "factory_name": "irure",
+        "name": "dolor in occaecat Duis nisi",
+        "type": "conseq",
+        "version": "aute eu",
+        "serial_number": "aliqua"
+    },
+    {
+        "name": "sunt tempor fugiat laborum consectetur",
+        "serial_number": "e",
+        "version": "ad labore",
+        "factory_name": "sunt dolore",
+        "type": "in aliqua",
+        "active": true
+    },
+    {
+        "version": "aliqua adipisicing",
+        "active": true,
+        "type": "elit velit quis commodo",
+        "factory_name": "et pariatur do laborum ea",
+        "name": "",
+        "serial_number": "culpa"
+    },
+    {
+        "name": "esse ",
+        "serial_number": "sint consequat irure in eu",
+        "active": false,
+        "factory_name": "c",
+        "version": "magna dolor",
+        "type": "iru"
+    },
+    {
+        "factory_name": "anim elit ut in veniam",
+        "name": "do fugiat",
+        "version": "Lorem dolor ea sed aliquip",
+        "active": false,
+        "type": "venia",
+        "serial_number": "consequat sunt"
+    },
+    {
+        "active": false,
+        "type": "deserunt dolor",
+        "serial_number": "veniam",
+        "factory_name": "aute ea",
+        "name": "aute consectetur exercitation",
+        "version": "minim"
+    },
+    {
+        "factory_name": "sunt do",
+        "serial_number": "nostrud consectetur",
+        "version": "ex consectetur cillum",
+        "type": "aliquip cillum dolor",
+        "active": true,
+        "name": "voluptate aute ea do in"
+    },
+    {
+        "active": false,
+        "factory_name": "ea in non dolor Excepteur",
+        "name": "Ut Lorem ad",
+        "serial_number": "magna ad in",
+        "version": "ea Duis irure",
+        "type": "sed sint mollit officia"
+    },
+    {
+        "serial_number": "sit",
+        "version": "dolor",
+        "factory_name": "Lorem",
+        "name": "qui",
+        "type": "dolor officia in id Ut",
+        "active": true
+    },
+    {
+        "version": "aute sint ea eiusmod irure",
+        "type": "veniam D",
+        "name": "anim elit dolore e",
+        "active": true,
+        "factory_name": "aute",
+        "serial_number": "esse nulla ex exerci"
+    },
+    {
+        "factory_name": "mollit et sed",
+        "version": "incididunt elit",
+        "type": "magna sunt est et",
+        "serial_number": "anim",
+        "active": false,
+        "name": "Ut est laboris qui ea"
+    },
+    {
+        "serial_number": "eiusmod laboris t",
+        "name": "volu",
+        "type": "nostrud aliquip irure labore in",
+        "factory_name": "ut qui",
+        "version": "irure sit enim venia",
+        "active": true
+    },
+    {
+        "factory_name": "cupidatat ut",
+        "serial_number": "in dolore incididunt consequat mollit",
+        "type": "est Lorem do",
+        "active": true,
+        "name": "occaecat in aliquip",
+        "version": "aliqua ex sit"
+    },
+    {
+        "version": "pariatur nisi",
+        "active": false,
+        "type": "qui Ut occaecat",
+        "factory_name": "Lorem occaecat",
+        "serial_number": "consequat irure Excepteur mollit",
+        "name": "Duis cupidatat tempor do"
+    }
+]
