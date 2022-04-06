@@ -1,28 +1,16 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router'
+import IothubRoutes from '@/iothub/Hub.routes'
+import ChallengeRoutes from '@/task/Challenge.routes'
 
 const routes: Array<RouteRecordRaw> = [
   { path: '', redirect: 'challenge' },
-  {
-    path: '/challenge',
-    name: 'challenge',
-    component: () => import('@/task/Challenge.vue'),
-    children: [
-      {
-        path: '',
-        name: 'challenge-task',
-        component: () => import('@/task/pages/Task.vue'),
-      },
-      {
-        path: 'resources',
-        name: 'challenge-resources',
-        component: () => import('@/task/pages/Resources.vue'),
-      },
-    ],
-  },
+  ...ChallengeRoutes,
+  ...IothubRoutes
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   linkActiveClass: 'active',
   routes,
 })
