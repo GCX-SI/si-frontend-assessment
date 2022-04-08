@@ -2,14 +2,6 @@
   <h3>Design</h3>
   <ul>
     <li>
-      <a
-        target="_blank"
-        href="https://share.goabstract.com/1da5ea0a-f2d1-46a7-8f7a-fe4755f5b305?sha=50ad445cd00ac75cae60c8ad8e06bef523ef4a5e"
-        >Abstract.io</a
-      >
-      (provides measurements, screens and assets but needs registration)
-    </li>
-    <li>
       <a target="_blank" href="/resources/design.zip">Zip</a>
       (screens, assets, font)
     </li>
@@ -18,7 +10,11 @@
   <h3>API</h3>
   <ul>
     <li>
-      <a target="_blank" href="https://app.swaggerhub.com/apis/Grandcentrix-GmbH/iot-hub/1.1.0">SwaggerHub</a>
+      <a
+        target="_blank"
+        href="https://app.swaggerhub.com/apis/Grandcentrix-GmbH/iot-hub/1.1.0"
+        >SwaggerHub</a
+      >
       (openAPI viewer)
     </li>
     <li>
@@ -50,5 +46,6 @@
 
   <p class="center">
     <router-link class="btn" to="/challenge">Task</router-link>
+    <router-link class="btn" to="/iothub">IotHub Starter</router-link>
   </p>
 </template>
