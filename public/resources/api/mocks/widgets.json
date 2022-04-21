@@ -1,15 +1,17 @@
 {
-    "active_devices": {
-        "trendUp": true,
-        "title": "pariatur veniam ea",
-        "value": 7885228.981694728
-    },
-    "energy": {
-        "value": "ipsum sed do sunt",
-        "title": "Duis in quis occaecat"
-    },
-    "health": {
-        "value": "warning",
-        "title": "eu"
-    }
+"active_devices": {
+  "trendUp": true,
+  "title": "Active Devices",
+  "value": 23482
+},
+  "health": {
+  "trendUp": false,
+  "title": "System Health",
+  "value": "Okay"
+},
+"energy": {
+  "trendUp": false,
+  "title": "Energy Level",
+  "value": 200
+}
 }

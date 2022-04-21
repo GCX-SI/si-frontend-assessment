@@ -1,162 +1,183 @@
 [
-    {
-        "active": false,
-        "type": "nisi dolore Lorem",
-        "serial_number": "aliqua in ullamco ad",
-        "factory_name": "exercitation eiusmod irure",
-        "version": "dolore ut cillum culpa esse",
-        "name": "occaecat ex velit"
-    },
-    {
-        "factory_name": "dolore non",
-        "version": "non consectetur mollit dolore",
-        "name": "enim",
-        "type": "in minim deserunt magna",
-        "active": false,
-        "serial_number": "aliqua laboris commodo dolore cillum"
-    },
-    {
-        "name": "incididunt id reprehenderit eu sit",
-        "active": false,
-        "factory_name": "ut ",
-        "serial_number": "dolor",
-        "version": "sunt incididunt",
-        "type": "enim"
-    },
-    {
-        "factory_name": "non ut ea consequat ullamco",
-        "type": "ut magna ut Ut culpa",
-        "active": true,
-        "version": "labore culpa ipsum enim anim",
-        "serial_number": "eiusmod proident amet",
-        "name": "ad"
-    },
-    {
-        "factory_name": "commodo",
-        "type": "ipsum Ut et ut",
-        "serial_number": "consectetur in",
-        "active": true,
-        "name": "magna ea reprehenderit tempor",
-        "version": "qui sed tempor nulla"
-    },
-    {
-        "type": "et magna veniam commodo",
-        "serial_number": "Excepteur",
-        "active": false,
-        "factory_name": "qui",
-        "version": "elit esse voluptate dolore nulla",
-        "name": "Duis"
-    },
-    {
-        "active": false,
-        "factory_name": "irure",
-        "name": "dolor in occaecat Duis nisi",
-        "type": "conseq",
-        "version": "aute eu",
-        "serial_number": "aliqua"
-    },
-    {
-        "name": "sunt tempor fugiat laborum consectetur",
-        "serial_number": "e",
-        "version": "ad labore",
-        "factory_name": "sunt dolore",
-        "type": "in aliqua",
-        "active": true
-    },
-    {
-        "version": "aliqua adipisicing",
-        "active": true,
-        "type": "elit velit quis commodo",
-        "factory_name": "et pariatur do laborum ea",
-        "name": "",
-        "serial_number": "culpa"
-    },
-    {
-        "name": "esse ",
-        "serial_number": "sint consequat irure in eu",
-        "active": false,
-        "factory_name": "c",
-        "version": "magna dolor",
-        "type": "iru"
-    },
-    {
-        "factory_name": "anim elit ut in veniam",
-        "name": "do fugiat",
-        "version": "Lorem dolor ea sed aliquip",
-        "active": false,
-        "type": "venia",
-        "serial_number": "consequat sunt"
-    },
-    {
-        "active": false,
-        "type": "deserunt dolor",
-        "serial_number": "veniam",
-        "factory_name": "aute ea",
-        "name": "aute consectetur exercitation",
-        "version": "minim"
-    },
-    {
-        "factory_name": "sunt do",
-        "serial_number": "nostrud consectetur",
-        "version": "ex consectetur cillum",
-        "type": "aliquip cillum dolor",
-        "active": true,
-        "name": "voluptate aute ea do in"
-    },
-    {
-        "active": false,
-        "factory_name": "ea in non dolor Excepteur",
-        "name": "Ut Lorem ad",
-        "serial_number": "magna ad in",
-        "version": "ea Duis irure",
-        "type": "sed sint mollit officia"
-    },
-    {
-        "serial_number": "sit",
-        "version": "dolor",
-        "factory_name": "Lorem",
-        "name": "qui",
-        "type": "dolor officia in id Ut",
-        "active": true
-    },
-    {
-        "version": "aute sint ea eiusmod irure",
-        "type": "veniam D",
-        "name": "anim elit dolore e",
-        "active": true,
-        "factory_name": "aute",
-        "serial_number": "esse nulla ex exerci"
-    },
-    {
-        "factory_name": "mollit et sed",
-        "version": "incididunt elit",
-        "type": "magna sunt est et",
-        "serial_number": "anim",
-        "active": false,
-        "name": "Ut est laboris qui ea"
-    },
-    {
-        "serial_number": "eiusmod laboris t",
-        "name": "volu",
-        "type": "nostrud aliquip irure labore in",
-        "factory_name": "ut qui",
-        "version": "irure sit enim venia",
-        "active": true
-    },
-    {
-        "factory_name": "cupidatat ut",
-        "serial_number": "in dolore incididunt consequat mollit",
-        "type": "est Lorem do",
-        "active": true,
-        "name": "occaecat in aliquip",
-        "version": "aliqua ex sit"
-    },
-    {
-        "version": "pariatur nisi",
-        "active": false,
-        "type": "qui Ut occaecat",
-        "factory_name": "Lorem occaecat",
-        "serial_number": "consequat irure Excepteur mollit",
-        "name": "Duis cupidatat tempor do"
-    }
+  {
+    "identifier": 2925179833,
+    "name": "IoT Pro 900",
+    "active": true,
+    "type": "sensors",
+    "image_url": "http://placeimg.com/130/120/tech?seed=2925179833",
+    "serial_number": "02481-39203-29108",
+    "factory_name": "iot_pro_900_210",
+    "version": "2.1.0"
+  }, {
+    "identifier": 28786443,
+    "name": "Jacobi Murazik and Schowalter Sensor 4500",
+    "active": true,
+    "type": "sensor",
+    "image_url": "http://placeimg.com/130/120/tech?seed=28786443",
+    "serial_number": "4d51e48f-9792-4b70-9824-946cff8b256e",
+    "factory_name": "4500_B25395384F47",
+    "version": "4500"
+  }, {
+    "identifier": 22157547,
+    "name": "Bogan Inc Lock 8",
+    "active": true,
+    "type": "lock",
+    "image_url": "http://placeimg.com/130/120/tech?seed=22157547",
+    "serial_number": "d37aa8f5-cc1a-4d09-92d1-5935111a8416",
+    "factory_name": "8_AA085DE1F718",
+    "version": "8"
+  }, {
+    "identifier": 27245580,
+    "name": "Conroy LLC Sensor 45d",
+    "active": false,
+    "type": "sensor",
+    "image_url": "http://placeimg.com/130/120/tech?seed=27245580",
+    "serial_number": "8ac40cb5-5a81-43e6-b9da-74f1c4897d4e",
+    "factory_name": "8_25406A0B4D25",
+    "version": "45d"
+  }, {
+    "identifier": 23378827,
+    "name": "Kassulke - Johnson Smart TV Play 3",
+    "active": false,
+    "type": "smart_tv",
+    "image_url": "http://placeimg.com/130/120/tech?seed=23378827",
+    "serial_number": "caab7e7f-9750-416e-886e-9df15c22efdb",
+    "factory_name": "PLAY_3_30BCB4DB2175",
+    "version": "Play 3"
+  }, {
+    "identifier": 22261440,
+    "name": "Konopelski - Hessel Washing Machine 7",
+    "active": false,
+    "type": "washing_machine",
+    "image_url": "http://placeimg.com/130/120/tech?seed=22261440",
+    "serial_number": "117a42d4-0872-44e8-a34c-652df9a9edaa",
+    "factory_name": "7_91B6A043A4C6",
+    "version": "7"
+  }, {
+    "identifier": 21003691,
+    "name": "Arduino VOIP Phone 300",
+    "active": true,
+    "type": "voip_phone",
+    "image_url": "http://placeimg.com/130/120/tech?seed=21003691",
+    "serial_number": "0d4c5014-47fc-4aab-979b-1ecb24efe3bf",
+    "factory_name": "300_1CBE0E51FF82",
+    "version": "300"
+  }, {
+    "identifier": 29794817,
+    "name": "Jacobi, Murazik and Schowalter VOIP Phone P12",
+    "active": false,
+    "type": "voip_phone",
+    "image_url": "http://placeimg.com/130/120/tech?seed=29794817",
+    "serial_number": "8a452060-f465-480a-98c6-975e9b46c0f4",
+    "factory_name": "XS_49CEADA10F3A",
+    "version": "P12"
+  }, {
+    "identifier": 24333426,
+    "name": "Batz Inc Washing Machine 700",
+    "active": true,
+    "type": "washing_machine",
+    "image_url": "http://placeimg.com/130/120/tech?seed=24333426",
+    "serial_number": "9bae0bc2-abce-48cf-9d06-7d4837ca1746",
+    "factory_name": "700_3113155C659A",
+    "version": "700"
+  }, {
+    "identifier": 29838801,
+    "name": "Cronin, Breitenberg and Heidenreich Camera 8",
+    "active": false,
+    "type": "camera",
+    "image_url": "http://placeimg.com/130/120/tech?seed=29838801",
+    "serial_number": "7bfb8d36-a3bf-425e-96d9-02c0aa0196c2",
+    "factory_name": "8_763E86AAACDD",
+    "version": "8"
+  }, {
+    "identifier": 27745193,
+    "name": "Raspberry Sensor 1200",
+    "active": true,
+    "type": "sensor",
+    "image_url": "http://placeimg.com/130/120/tech?seed=27745193",
+    "serial_number": "97119d8d-4a53-4ed9-9bd7-05fb0625cd48",
+    "factory_name": "4500_78BE5DBF323E",
+    "version": "1200"
+  }, {
+    "identifier": 20820424,
+    "name": "Kassulke - Johnson Refrigrator XS",
+    "active": true,
+    "type": "refrigrator",
+    "image_url": "http://placeimg.com/130/120/tech?seed=20820424",
+    "serial_number": "455e5924-8111-436e-acdd-daaca7395198",
+    "factory_name": "XS_D33E5B1AFCF9",
+    "version": "XS"
+  }, {
+    "identifier": 26312374,
+    "name": "Adafruit Robot Z2",
+    "active": true,
+    "type": "robot",
+    "image_url": "http://placeimg.com/130/120/tech?seed=26312374",
+    "serial_number": "63ee0da7-4321-4191-a118-6cc708e3e1e7",
+    "factory_name": "Z2_A417EDEC6320",
+    "version": "Z2"
+  }, {
+    "identifier": 20925648,
+    "name": "Considine - Roob Refrigrator 700",
+    "active": true,
+    "type": "refrigrator",
+    "image_url": "http://placeimg.com/130/120/tech?seed=20925648",
+    "serial_number": "b2ccb220-a58d-47fa-8087-fbacc691c087",
+    "factory_name": "700_A728A7FD1970",
+    "version": "700"
+  }, {
+    "identifier": 27071359,
+    "name": "Jacobi and Sons Lightbulb 7700",
+    "active": false,
+    "type": "lightbulb",
+    "image_url": "http://placeimg.com/130/120/tech?seed=27071359",
+    "serial_number": "64d90e61-07e4-4dd5-bdeb-5f18bc56315a",
+    "factory_name": "4500_DB2364E57F01",
+    "version": "7700"
+  }, {
+    "identifier": 23396883,
+    "name": "Konopelski - Hessel VOIP Phone XS",
+    "active": true,
+    "type": "voip_phone",
+    "image_url": "http://placeimg.com/130/120/tech?seed=23396883",
+    "serial_number": "4d75296d-0755-4b7f-8b57-291e0a9f0a84",
+    "factory_name": "XS_2D2C99397EE6",
+    "version": "XS"
+  }, {
+    "identifier": 27724019,
+    "name": "Klein - Weber VOIP Phone 7",
+    "active": true,
+    "type": "voip_phone",
+    "image_url": "http://placeimg.com/130/120/tech?seed=27724019",
+    "serial_number": "badc3f28-9dc0-485e-a1d3-3744df0bc777",
+    "factory_name": "7_6B82A998A616",
+    "version": "7"
+  }, {
+    "identifier": 25041251,
+    "name": "Sparkfun Sensors",
+    "active": true,
+    "type": "sensors",
+    "image_url": "http://placeimg.com/130/120/tech?seed=25041251",
+    "serial_number": "5987d2b9-cec9-40fe-8fff-5b11d980e687",
+    "factory_name": "10_6158EB22446E",
+    "version": "10"
+  }, {
+    "identifier": 25602467,
+    "name": "Adafruit Soundsystem Z2",
+    "active": true,
+    "type": "soundsystem",
+    "image_url": "http://placeimg.com/130/120/tech?seed=25602467",
+    "serial_number": "59619380-a910-44e9-b239-6aa174def9a5",
+    "factory_name": "Z2_DA1B1221AB66",
+    "version": "Z2"
+  }, {
+    "identifier": 28577048,
+    "name": "Daugherty - Rutherford Washing Machine T1000",
+    "active": true,
+    "type": "washing_machine",
+    "image_url": "http://placeimg.com/130/120/tech?seed=28577048",
+    "serial_number": "285f067e-5b84-4c00-a644-872c0b9301ca",
+    "factory_name": "T1000_8B7CB088A09E",
+    "version": "T1000"
+  }
 ]
