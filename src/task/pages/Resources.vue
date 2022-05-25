@@ -10,14 +10,6 @@
   <h3>API</h3>
   <ul>
     <li>
-      <a
-        target="_blank"
-        href="https://app.swaggerhub.com/apis/Grandcentrix-GmbH/iot-hub/1.1.0"
-        >SwaggerHub</a
-      >
-      (openAPI viewer)
-    </li>
-    <li>
       <a target="_blank" href="https://stoplight.io/studio/">Stoplight Studio</a>
       (openAPI editor, provides mock server)
     </li>
