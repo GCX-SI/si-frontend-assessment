@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-288.000000, -176.000000)" id="active-devices">
+            <g transform="translate(256.000000, 144.000000)">
+                <g id="Group" transform="translate(32.000000, 32.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+                    <g id="chart-line-solid" transform="translate(0.000000, 4.000000)" fill="#12141A" fill-rule="nonzero">
+                        <path d="M8,46 C8,47.1 8.895,48 10,48 L60,48 C62.2125,48 64,49.7875 64,52 C64,54.2125 62.2125,56 60,56 L10,56 C4.4775,56 0,51.525 0,46 L0,4 C0,1.79125 1.79125,0 4,0 C6.20875,0 8,1.79125 8,4 L8,46 Z M42.825,30.825 C41.2625,32.3875 38.7375,32.3875 37.175,30.825 L30,23.6625 L18.825,34.825 C17.2625,36.3875 14.7375,36.3875 13.175,34.825 C11.61,33.2625 11.61,30.7375 13.175,29.175 L27.175,15.175 C28.7375,13.6125 31.2625,13.6125 32.825,15.175 L40,22.3375 L53.175,9.175 C54.7375,7.61 57.2625,7.61 58.825,9.175 C60.3875,10.7375 60.3875,13.2625 58.825,14.825 L42.825,30.825 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
