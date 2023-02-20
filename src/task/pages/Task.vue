@@ -34,8 +34,8 @@
     After the Q&A our team will discuss your presentation. We do not rate your solution in terms of right or wrong, but
     on the basis of objective criteria. It is not important to finish the task, priotizing is part of this challenge. We
     want you to utilise Vue.js. Apart from that, there are no limitations regarding the used technologies, frameworks or
-    libraries. Please bear in mind that an exotic choice might be harder to evaluate for us. We recommend vite, axios,
-    vuex and primevue
+    libraries. Please bear in mind that an exotic choice might be harder to evaluate for us. We recommend Vite, Axios
+    and Pinia.
   </p>
   <p class="center">
     <i class="fad fa-list-check fa-3x"></i>
